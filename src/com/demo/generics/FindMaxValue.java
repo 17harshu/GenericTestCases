@@ -10,9 +10,9 @@ public class FindMaxValue {
 		this.z = z;
 	}
 
-	// checking max of three integers
-	public static Integer testMaximum(Integer x, Integer y, Integer z) {
-		Integer max = x;// taking x as greater
+	// checking max of three float values
+	public static Float testMaximum(Float x, Float y, Float z) {
+		Float max = x;// initialising x as greater
 		if (y.compareTo(max) > 0)
 			max = y;// as of now y is greater
 
@@ -23,7 +23,7 @@ public class FindMaxValue {
 
 	}
 
-	public static void printMax(Integer x, Integer y, Integer z, Integer max) {
-		System.out.printf("the max %s \n", max);
+	public static void printMax(Float x, Float y, Float z, Float max) {
+		System.out.printf("the max of %s \n", max);
 	}
 }
