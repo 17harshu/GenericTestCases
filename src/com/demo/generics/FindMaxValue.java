@@ -11,8 +11,8 @@ public class FindMaxValue {
 	}
 
 	// checking max of three float values
-	public static Float testMaximum(Float x, Float y, Float z) {
-		Float max = x;// initialising x as greater
+	public static String testMaximum(String x, String y, String z) {
+		String max = x;// initialising x as greater
 		if (y.compareTo(max) > 0)
 			max = y;// as of now y is greater
 
@@ -23,7 +23,7 @@ public class FindMaxValue {
 
 	}
 
-	public static void printMax(Float x, Float y, Float z, Float max) {
+	public static void printMax(String x, String y, String z, String max) {
 		System.out.printf("the max of %s \n", max);
 	}
 }
